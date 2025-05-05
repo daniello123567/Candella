@@ -38,18 +38,18 @@ const products: Array<product> = [
     name: 'Colorful style dress'
   },
   {
-    id: 2,
-    price: 540,
-    imageUrl: 'https://i.pinimg.com/736x/b9/08/a5/b908a5040570e4bc5be5f724d80ff82f.jpg',
-    category: 'shoes',
-    name: 'Cool street sneakers'
-  },
-  {
     id: 3,
     price: 899,
     imageUrl: 'https://i.pinimg.com/474x/9c/bb/0b/9cbb0b3b291714561ed6ae50c45f320a.jpg',
     category: 'clothing',
     name: 'Hoodie'
+  },
+  {
+    id: 2,
+    price: 540,
+    imageUrl: 'https://i.pinimg.com/736x/b9/08/a5/b908a5040570e4bc5be5f724d80ff82f.jpg',
+    category: 'shoes',
+    name: 'Cool street sneakers'
   },
   {
     id: 4,
