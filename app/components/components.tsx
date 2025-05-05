@@ -86,7 +86,7 @@ const Design = () => {
       <p className="text-[0.75em] font-[700]">WELCOME TO</p>
       <p className="text-[1.875em]  mt-[0.600em] font-[800] md:text-[2.5em]">CANDELLA</p>
     </div>
-    <div className="mt-[3.125em] lg:animate-none animate-scroll animate-infinite-scroll translate-x-[-2em] overflow-x-auto flex flex-row w-fit  gap-[1.25em] items-center ">
+    <div className="mt-[3.125em]  lg:animate-none animate-scroll animate-infinite-scroll translate-x-[-2em] overflow-x-hidden flex flex-row w-fit  gap-[1.25em] items-center ">
       {images.map((image: u) => {
         return <ImageCard key={image.alt} url={String(image.url)} alt={image.alt} />
       })}
