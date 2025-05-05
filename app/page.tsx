@@ -28,7 +28,7 @@ export default function Home(){
   const [ToggleCart,setToggleCart] = useState<boolean>(false)
   const [cart,setCart] = useState<Array<Cartz>>([]);
   const [showSearchBar,setShowSideBar] = useState<boolean>(false)
-   return <div className="pt-[5em]">
+   return <div className="pt-[5em] w-full overflow-hidden">
      <Header showSearchBar={showSearchBar} setShowSideBar={setShowSideBar} CartLength={cart.length} currentState={ToggleCart}  ToggleFunc={setToggleCart}/>
      <Video/>
      <Design/>

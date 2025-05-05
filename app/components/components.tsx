@@ -81,7 +81,7 @@ const Shop = ({ currentCart, setCart, setShowSideBar, showSearchBar }: { setShow
   </div>
 }
 const Design = () => {
-  return (<section className="bg-[rgb(245,245,245)] py-[3.125em] text-[#333333]   w-full ">
+  return (<section className="bg-[rgb(245,245,245)] py-[3.125em] text-[#333333]">
     <div className="text-center  flex flex-col justify-center items-center">
       <p className="text-[0.75em] font-[700]">WELCOME TO</p>
       <p className="text-[1.875em]  mt-[0.600em] font-[800] md:text-[2.5em]">CANDELLA</p>
