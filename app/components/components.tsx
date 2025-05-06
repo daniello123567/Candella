@@ -73,11 +73,11 @@ const Shop = ({ currentCart, setCart, setShowSideBar, showSearchBar }: { setShow
     <p className="text-[0.75em] text-center uppercase mt-[0.625em] leading-[18px] font-[400]">Discover the Perfect Blend of Comfort and Trend with Our Exclusive Collection. Explore Deals on Jeans, Sneakers, and More!</p>
     {showSearchBar && <SearchBar setShowSideBar={setShowSideBar} showSearchBar={showSearchBar} handleSearch={handleSearch} />}
 
-    {Allproducts.length>0?<div className="w-full grid md:grid-cols-3 mt-[3em] lg:gap-12 grid-cols-2 gap-10">
+    {Allproducts.length>0?<div className="w-full h-full flex justify-center"><div className="w-full grid md:grid-cols-3 mt-[3em] lg:gap-12 grid-cols-2 gap-10">
       {Allproducts.map((product: product) => {
         return <Product currentCart={currentCart} setCart={setCart} id={product.id} category={product.category} key={product.id} price={product.price} name={product.name} imageUrl={product.imageUrl} />
       })}
-    </div>:<div className={`text-center w-full flex justify-center ${Dm.className}`}>No Result on &quot;{searchTerm}&quot;</div>}
+    </div></div>:<div className={`text-center w-full flex justify-center ${Dm.className}`}>No Result on &quot;{searchTerm}&quot;</div>}
   </div>
 }
 const Design = () => {
