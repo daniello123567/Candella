@@ -30,7 +30,7 @@ export default function Home(){
   const [showSearchBar,setShowSideBar] = useState<boolean>(false)
    return <div className="pt-[5em] w-full overflow-hidden">
      <Header showSearchBar={showSearchBar} setShowSideBar={setShowSideBar} CartLength={cart.length} currentState={ToggleCart}  ToggleFunc={setToggleCart}/>
-     <Video/>
+{/*      <Video/> */}
      <Design/>
      <Shop showSearchBar={showSearchBar} setShowSideBar={setShowSideBar} setCart={setCart} currentCart={cart}/>
      {ToggleCart&&<Basket setCart={setCart} cart={cart} setState={setToggleCart} currentState={ToggleCart}/>}
